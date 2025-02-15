@@ -41,7 +41,7 @@ jobs:
           pwd
           ls
           hugo --gc --minify --themesDir themes --printUnusedTemplates
-        working-directory: ./site
+        working-directory: .
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
